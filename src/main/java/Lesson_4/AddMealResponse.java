@@ -10,6 +10,7 @@ import lombok.Data;
     @JsonPropertyOrder({
             "status",
             "id"
+
     })
     @Data
     public class AddMealResponse {

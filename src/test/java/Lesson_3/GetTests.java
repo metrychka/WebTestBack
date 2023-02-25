@@ -56,6 +56,8 @@ public class GetTests extends AbstractTest{
   @Test
     void getMinFat() {
       given()
+              .log()
+              .all()
               .queryParam("apiKey", getApiKey())
               .queryParam("minFat", "15")
               .queryParam("maxReadyTime", "40")

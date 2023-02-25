@@ -36,6 +36,7 @@ public class MealPlanTest extends AbstractTest {
                     .toString();
 
 
+
             given()
                     .queryParam("hash", "051efdd09b09eb79242dcb289f81fc35458fb362")
                     .queryParam("apiKey", getApiKey())

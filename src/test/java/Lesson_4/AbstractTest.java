@@ -68,6 +68,7 @@ static void initTest() throws IOException {
             .log(LogDetail.ALL)
             .build();
 
+
     requestSpecification4 = new RequestSpecBuilder()
             .addQueryParam("apiKey", apiKey)
             .addQueryParam("type", "dessert")

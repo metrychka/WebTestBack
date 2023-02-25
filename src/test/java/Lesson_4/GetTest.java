@@ -25,6 +25,7 @@ public class GetTest extends AbstractTest{
     }
 
     @Test
+
    void  getMealTypeTest() {
         given().spec(getRequestSpecification3())
                 .when()
