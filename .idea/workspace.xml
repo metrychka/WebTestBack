@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e863b1f2-f46f-4cc7-814a-4ace3a7694a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/my.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson_3/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson_3/GetTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson_3/MealPlanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson_3/PostTests.java" afterDir="false" />
+    <list default="true" id="e863b1f2-f46f-4cc7-814a-4ace3a7694a1" name="Changes" comment="Домашнее задание 3">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/AddMealRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/AddMealResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson_4/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson_4/GetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson_4/MealPlanTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson_3/GetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson_3/GetTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Lesson_3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,40 +50,39 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MealPlanTest.mealPlanTest">
-    <configuration name="GetTests.getMinFat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MealPlanTest">
+    <configuration name="GetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebTestBack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_3.*" />
+          <option name="PATTERN" value="Lesson_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson_3" />
-      <option name="MAIN_CLASS_NAME" value="Lesson_3.GetTests" />
-      <option name="METHOD_NAME" value="getMinFat" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Lesson_4" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_4.GetTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetTests.getTestSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetTest.getCuisineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebTestBack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_3.*" />
+          <option name="PATTERN" value="Lesson_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson_3" />
-      <option name="MAIN_CLASS_NAME" value="Lesson_3.GetTests" />
-      <option name="METHOD_NAME" value="getTestSort" />
+      <option name="PACKAGE_NAME" value="Lesson_4" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_4.GetTest" />
+      <option name="METHOD_NAME" value="getCuisineTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,13 +92,29 @@
       <module name="WebTestBack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_3.*" />
+          <option name="PATTERN" value="Lesson_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson_3" />
-      <option name="MAIN_CLASS_NAME" value="Lesson_3.MealPlanTest" />
+      <option name="PACKAGE_NAME" value="Lesson_4" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_4.MealPlanTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MealPlanTest.getAddMealPlanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebTestBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson_4" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_4.MealPlanTest" />
+      <option name="METHOD_NAME" value="getAddMealPlanTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,28 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebTestBack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson_3" />
-      <option name="MAIN_CLASS_NAME" value="Lesson_3.PostTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MealPlanTest.mealPlanTest" />
         <item itemvalue="JUnit.MealPlanTest" />
-        <item itemvalue="JUnit.PostTests" />
-        <item itemvalue="JUnit.GetTests.getTestSort" />
-        <item itemvalue="JUnit.GetTests.getMinFat" />
+        <item itemvalue="JUnit.MealPlanTest.getAddMealPlanTest" />
+        <item itemvalue="JUnit.MealPlanTest.mealPlanTest" />
+        <item itemvalue="JUnit.GetTest" />
+        <item itemvalue="JUnit.GetTest.getCuisineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +154,14 @@
       <option name="presentableId" value="Default" />
       <updated>1677148138264</updated>
     </task>
+    <task id="LOCAL-00001" summary="Домашнее задание 3">
+      <created>1677168146125</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677168146125</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,5 +174,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Домашнее задание 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание 3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
