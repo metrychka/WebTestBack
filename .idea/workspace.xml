@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e863b1f2-f46f-4cc7-814a-4ace3a7694a1" name="Changes" comment="Домашнее задание 3">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/AddMealRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/AddMealResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson_4/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson_4/GetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson_4/MealPlanTest.java" afterDir="false" />
+    <list default="true" id="e863b1f2-f46f-4cc7-814a-4ace3a7694a1" name="Changes" comment="Домашнее задание 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/Examples/ExampleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/Examples/ExampleTestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson_6/MyBatisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson_3/GetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson_3/GetTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -31,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_3" />
+        <entry key="$PROJECT_DIR$" value="Lesson_5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,91 +43,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.MealPlanTest">
-    <configuration name="GetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.MyBatisTest.MyBatisProductsDeleteTest">
+    <configuration name="MyBatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebTestBack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_4.*" />
+          <option name="PATTERN" value="Lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson_4" />
-      <option name="MAIN_CLASS_NAME" value="Lesson_4.GetTest" />
+      <option name="PACKAGE_NAME" value="Lesson_6" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_6.MyBatisTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetTest.getCuisineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyBatisTest.MyBatisDeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebTestBack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_4.*" />
+          <option name="PATTERN" value="Lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson_4" />
-      <option name="MAIN_CLASS_NAME" value="Lesson_4.GetTest" />
-      <option name="METHOD_NAME" value="getCuisineTest" />
+      <option name="PACKAGE_NAME" value="Lesson_6" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_6.MyBatisTest" />
+      <option name="METHOD_NAME" value="MyBatisDeleteTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealPlanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyBatisTest.MyBatisInsertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebTestBack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_4.*" />
+          <option name="PATTERN" value="Lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson_4" />
-      <option name="MAIN_CLASS_NAME" value="Lesson_4.MealPlanTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MealPlanTest.getAddMealPlanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebTestBack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson_4" />
-      <option name="MAIN_CLASS_NAME" value="Lesson_4.MealPlanTest" />
-      <option name="METHOD_NAME" value="getAddMealPlanTest" />
+      <option name="PACKAGE_NAME" value="Lesson_6" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_6.MyBatisTest" />
+      <option name="METHOD_NAME" value="MyBatisInsertTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealPlanTest.mealPlanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyBatisTest.MyBatisProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebTestBack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_3.*" />
+          <option name="PATTERN" value="Lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson_3" />
-      <option name="MAIN_CLASS_NAME" value="Lesson_3.MealPlanTest" />
-      <option name="METHOD_NAME" value="mealPlanTest" />
+      <option name="PACKAGE_NAME" value="Lesson_6" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_6.MyBatisTest" />
+      <option name="METHOD_NAME" value="MyBatisProductTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.MyBatisProductsDeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebTestBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson_6" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_6.MyBatisTest" />
+      <option name="METHOD_NAME" value="MyBatisProductsDeleteTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MealPlanTest" />
-        <item itemvalue="JUnit.MealPlanTest.getAddMealPlanTest" />
-        <item itemvalue="JUnit.MealPlanTest.mealPlanTest" />
-        <item itemvalue="JUnit.GetTest" />
-        <item itemvalue="JUnit.GetTest.getCuisineTest" />
+        <item itemvalue="JUnit.MyBatisTest.MyBatisProductsDeleteTest" />
+        <item itemvalue="JUnit.MyBatisTest.MyBatisProductTest" />
+        <item itemvalue="JUnit.MyBatisTest.MyBatisInsertTest" />
+        <item itemvalue="JUnit.MyBatisTest.MyBatisDeleteTest" />
+        <item itemvalue="JUnit.MyBatisTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +160,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677168146125</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Домашнее задание 4">
+      <created>1677339956489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677339956489</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Домашнее задание 4">
+      <created>1677340085493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677340085493</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Домашнее задание 5">
+      <created>1677952176864</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677952176864</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,7 +197,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Домашнее задание 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание 3" />
+    <MESSAGE value="Домашнее задание 4" />
+    <MESSAGE value="Домашнее задание 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание 5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lesson6/Examples/ExampleMain.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
